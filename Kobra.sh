@@ -7,7 +7,7 @@ echo "                         \____\___/|____/|_| \_\/_/   \_\ "
 echo "                       Made with <3 and sweat by ManasH4rsh  "
 echo " 								"
 
-echo	" 1.  subfinder             2. dnsx      			    3.  nuclei		"	
+echo	" 1.  subfinder                         2. dnsx      			3.  nuclei		"	
 echo	" 4.  httpx       			5. waybackurls            	6.  getallurls(gau)					"
 echo	" 7.  naabu   				8. aquatone               	9.  hakrawler						"
 echo	" 10. FFUF "
