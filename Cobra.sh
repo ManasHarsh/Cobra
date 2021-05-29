@@ -145,6 +145,13 @@ case $number in
 		read  url
 		~/byp4xx/./byp4xx.sh $url
 		;;
+		
+	22) 
+	
+        	echo -n "Enter your file: "
+		read  file
+		./subjack -w $file -t 100 -timeout 30 -o results.txt -ssl
+		;;
 
 	*)	
 		echo "Please give valid choice!!!"
