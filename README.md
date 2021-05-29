@@ -8,7 +8,7 @@ This tool contains pre-built tools from the community and it has tools from GO a
 # Installation
 Please make sure you have all the tools installed listed in this script. 
 
-* git clone https://github.com/manasjha7/Cobra
+* git clone https://github.com/ManasHarsh/Cobra.git
 * cd Cobra
 * chmod +x Cobra.sh
 * Note: You can put "Cobra.sh" in home/root directory for better experience.
