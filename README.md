@@ -27,9 +27,12 @@ Please make sure you have all the tools installed listed in this script.
 * In "gitGraber", please make sure to define your wordlist for scrapping the data.
 * Make sure you have all the tools installed in home/root directory otherwise you'll need to define the path for tools. 
 
-# Special thanks to:
-Manasi Jha for the contribution she did:)
-* https://github.com/manasijha/
+# Special thanks ✨
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/manasijha/"><img src="https://avatars.githubusercontent.com/u/47267639?v=4" width="100px;" alt=""/><br /><sub><b>Harsha Vardhan</b></sub></a><br /><a href="#tutorial-Harsha-Ambati" title="Tutorials">✅</a></td>
+     </tr>
+</table>
 
 
 # Legal disclaimer:
