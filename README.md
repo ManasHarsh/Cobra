@@ -1,4 +1,4 @@
-# Kobra
+# Cobra
 An All in one tool to make your hacking easier:)
 
 This tool contains pre-built tools from the community and it has tools from GO and Python. I have built this tool to make the hacking easier since you will find all the tools on one place and these can be used accordingly as per your need. If you are new to recon thing, this might help you in using multiple tools from a single script. Feel free to contribute if you have ideas:)
