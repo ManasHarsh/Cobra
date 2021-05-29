@@ -4,13 +4,16 @@ echo "                         / ___/ _ \| __ )|  _ \    / \ "
 echo "                        | |  | | | |  _ \| |_) |  / _ \  "
 echo "                        | |__| |_| | |_) |  _ <  / ___ \ "
 echo "                         \____\___/|____/|_| \_\/_/   \_\ "
-echo "                       Made with <3 and sweat by ManasH4rsh  "
+echo "                       Made with <3 and sweat by ManasH4rsh   "
 echo " 								"
 
-echo	" 1.  subfinder                         2. dnsx      			3.  nuclei		"	
-echo	" 4.  httpx       			5. waybackurls            	6.  getallurls(gau)					"
-echo	" 7.  naabu   				8. aquatone               	9.  hakrawler						"
-echo	" 10. FFUF "
+echo	" 1.  subfinder		2. dnsx				3.  nuclei		"	
+echo	" 4.  httpx       	5. waybackurls            	6.  getallurls					"
+echo	" 7.  naabu   		8. aquatone               	9.  hakrawler						"
+echo	" 10. FFUF	 	11. dirsearch			12. amass "
+echo	" 13. dalfox		14. findomain			15. arjun"
+echo	" 16. LinkFinder		17. secretfinder		18. ParamSpider"
+echo	" 19. Corsy 		20. gitgraber 			21. byp4xx"
 echo -n "Enter the respective number from tool list that you want to use: "
 read number
 echo ""
@@ -28,7 +31,7 @@ case $number in
              	subfinder -d $domain | dnsx -cname -resp
 		;;
           
-        3)
+	3)
 		echo -n "Enter the domain: "
 		read domain
              	echo "$domain" | nuclei -t nuclei-templates -o $domain.txt
@@ -67,16 +70,83 @@ case $number in
 	9)
 		echo -n "Enter the domain: "
 		read domain
-             	hakrawler -url $domain -depth 1
+              	hakrawler -url $domain -depth 1
 		;;
 
 	10)
 		echo -n "Enter the domain: "
 		read domain
-             	ffuf -w /path/to/wordlist -u https://$domain/FUZZ
+             	ffuf -w /usr/share/wordlists/rockyou.txt -u https://$domain/FUZZ
+		;;
+	11)
+		echo -n "Enter the domain: "
+		read domain
+		python3 ~/dirsearch/dirsearch.py -u $domain -e all
+		;;
+	
+	12)
+		echo -n "Enter the domain: "
+		read domain
+		amass intel -d $domain -whois -o output.txt
 		;;
 
-	*)
+	13)
+		echo -n "Enter the domain: "
+		read domain
+		dalfox url http://$domain -b hahwul.xss.ht
+		;;
+
+	14)
+		echo -n "Enter the domain: "
+		read domain
+		findomain -t $domain -o
+		;;
+
+	15)
+		echo -n "Enter the domain: "
+		read domain
+		arjun -u https://$domain
+		;;
+
+
+	16)
+		echo -n "Enter the domain: "
+		read domain
+		python3 ~/LinkFInder/linkfinder.py -i https://$domain -d 
+		;;
+
+	17)
+		echo -n "Enter the domain: "
+		read domain
+		python3 ~/secretfinder/SecretFinder.py -i $domain -o output.html
+		;;
+
+	18)
+		echo -n "Enter the domain: "
+		read domain
+		python3 ~/ParamSpider/paramspider.py --domain $domain
+		;;
+
+	19)
+		echo -n "Enter the domain: "
+		read domain
+		python3 ~/Corsy/corsy.py -u https://$domain
+		;;
+
+	
+	20)
+		echo -n "Enter the domain: "
+		read domain
+		python3 ~/gitGraber/gitGraber.py -k keywordsfile.txt \"$domain\" -s
+		;;
+
+	21)
+		echo -n "Enter the URL: "
+		read  url
+		~/byp4xx/./byp4xx.sh $url
+		;;
+
+	*)	
 		echo "Please give valid choice!!!"
 		;;
 
