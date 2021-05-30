@@ -21,6 +21,7 @@ This tool contains pre-built tools from the community and it has tools from GO a
 * Hakluke(https://github.com/hakluke)
 * Corben Leo(https://github.com/lc)
 * Michel Henriksen(https://github.com/michenriksen)
+* Somdev Sangwan (https://github.com/s0md3v)
 
 # Notes:
 * In "gitGraber", please make sure to define your wordlist for scrapping the data.
