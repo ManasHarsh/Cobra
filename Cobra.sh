@@ -8,7 +8,6 @@ echo " 								"
 
 echo "checking your system and setting up the environment: "
 echo ""
-sudo apt-get update && apt-get upgrade;
 sudo apt install golang;
 sudo apt install python3;
 sudo apt install python3-pip;
