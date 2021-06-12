@@ -39,6 +39,7 @@ GO111MODULE=on go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu;
 GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
 git clone https://github.com/hisxo/gitGraber.git;
 git clone https://github.com/lobuhi/byp4xx.git;
+cp -r ~/go/bin/* /usr/local/bin
 
 echo	" 1.  subfinder		2. dnsx				3.  nuclei		"	
 echo	" 4.  httpx       	5. waybackurls            	6.  getallurls					"
