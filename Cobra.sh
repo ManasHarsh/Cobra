@@ -40,6 +40,12 @@ GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
 git clone https://github.com/hisxo/gitGraber.git;
 git clone https://github.com/lobuhi/byp4xx.git;
 
+git clone https://github.com/aboul3la/Sublist3r.git
+cd Sublist3r
+pip3 install -r requirements.txt
+sudo python3 setup.py install
+
+
 echo	" 1.  subfinder		2. dnsx				3.  nuclei		"	
 echo	" 4.  httpx       	5. waybackurls            	6.  getallurls					"
 echo	" 7.  naabu   		8. aquatone               	9.  hakrawler						"
