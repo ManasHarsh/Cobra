@@ -45,6 +45,8 @@ cd Sublist3r
 pip3 install -r requirements.txt
 sudo python3 setup.py install
 
+cp -r ~/go/bin/* /usr/local/bin 
+
 echo	" 1.  subfinder		2. dnsx				3.  nuclei		"	
 echo	" 4.  httpx       	5. waybackurls            	6.  getallurls					"
 echo	" 7.  naabu   		8. aquatone               	9.  hakrawler						"
