@@ -25,7 +25,7 @@ GO111MODULE=on go get -u -v github.com/hahwul/dalfox;
 go get github.com/tomnomnom/hacks/waybackurls;
 GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder;
 GO111MODULE=on go get -v github.com/projectdiscovery/dnsx/cmd/dnsx
-GO111MODULE=on go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei;
+GO111MODULE=on go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei;
 git clone https://github.com/projectdiscovery/nuclei-templates;
 go get github.com/haccer/subjack;
 git clone https://github.com/findomain/findomain.git;
