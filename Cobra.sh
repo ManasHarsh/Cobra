@@ -35,6 +35,7 @@ GO111MODULE=on go get -v -u github.com/OWASP/Amass/v3/...
 git clone https://github.com/maurosoria/dirsearch
 git clone https://github.com/s0md3v/Corsy.git;
 go get -u github.com/ffuf/ffuf;
+sudo apt install -y libpcap-dev;
 GO111MODULE=on go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu;
 GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
 git clone https://github.com/hisxo/gitGraber.git;
