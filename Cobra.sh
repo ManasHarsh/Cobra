@@ -47,7 +47,12 @@ pip3 install -r requirements.txt
 sudo python3 setup.py install
 
 cd ~/Arjun
-sudo python3 setup.py install
+sudo python3 setup.py install;
 
-cp -r ~/go/bin/* /usr/local/bin 
+cd ~/findomain
+sudo apt install -y cargo;
+cargo build --release;
+sudo cp target/release/findomain ~/go/bin/
+
+
 
