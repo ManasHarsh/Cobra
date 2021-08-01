@@ -7,13 +7,23 @@ This tool contains pre-built tools from the community and it has tools from GO a
 
 # Installation
 
-* git clone https://github.com/ManasHarsh/Cobra.git
-* cd Cobra
-* chmod +x Cobra.sh
-* Note: You can put "Cobra.sh" in home/root directory for better experience.
+* `git clone https://github.com/ManasHarsh/Cobra.git`
+* `cd Cobra`
+* `cp * ~/`
+* `chmod +x ~/Cobra.sh ~/tools.sh`
+* Note: Append these lines in your ~/.bashrc or ~/.zshrc (depeding on which shell you use) 
+```
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+```
+
+then
+`source ~/.bashrc` (for bash shell)
+`source ~/.zshrc` (for zsh shell)
 
 # Usage:
-./Cobra.sh
+* for tool install `~./Cobra.sh`
+* to use tools `~./tools.sh`
 
 # Credits:
 * Tomnomnom(https://github.com/tomnomnom)
@@ -25,8 +35,7 @@ This tool contains pre-built tools from the community and it has tools from GO a
 
 # Notes:
 * In "gitGraber", please make sure to define your wordlist for scrapping the data.
-* Please isntall "Aquatone" properly before you run it with this tool.
-* Make sure you have all the tools installed in home/root directory otherwise you'll need to define the path for tools. 
+* Make sure you have all the tools installed in home directory otherwise you'll need to define the path for tools. 
 
 # Special thanks ✨
 <table>
