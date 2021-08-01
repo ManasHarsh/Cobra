@@ -52,7 +52,11 @@ sudo python3 setup.py install;
 cd ~/findomain
 sudo apt install -y cargo;
 cargo build --release;
-sudo cp target/release/findomain ~/go/bin/
+cp target/release/findomain ~/go/bin/
 
+cd $HOME;
+wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_linux_amd64_1.7.0.zip;
+unzip aquatone_linux_amd64_1.7.0.zip;
+cp ~/aquatone ~/go/bin/;
 
 
