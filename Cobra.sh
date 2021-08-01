@@ -9,10 +9,10 @@ echo " 								"
 echo ""
 echo "checking your system and setting up the environment: "
 echo ""
-sudo apt install golang;
-sudo apt install python3;
-sudo apt install python3-pip;
-sudo apt install git;
+sudo apt install -y golang;
+sudo apt install -y python3;
+sudo apt install -y python3-pip;
+sudo apt install -y git;
 echo "installing your assets, please wait:)"
 echo ""
 
@@ -44,6 +44,9 @@ git clone https://github.com/lobuhi/byp4xx.git;
 git clone https://github.com/aboul3la/Sublist3r.git
 cd Sublist3r
 pip3 install -r requirements.txt
+sudo python3 setup.py install
+
+cd ~/Arjun
 sudo python3 setup.py install
 
 cp -r ~/go/bin/* /usr/local/bin 
