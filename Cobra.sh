@@ -30,11 +30,10 @@ git clone https://github.com/projectdiscovery/nuclei-templates;
 go get github.com/haccer/subjack;
 git clone https://github.com/findomain/findomain.git;
 GO111MODULE=on go get -u -v github.com/lc/gau;
-GO111MODULE=on go get -u -v github.com/hahwul/dalfox;
 GO111MODULE=on go get -v -u github.com/OWASP/Amass/v3/...
 git clone https://github.com/maurosoria/dirsearch
 git clone https://github.com/s0md3v/Corsy.git;
-go get -u github.com/ffuf/ffuf;
+GO111MODULE=on go get -u github.com/ffuf/ffuf;
 sudo apt install -y libpcap-dev;
 GO111MODULE=on go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu
 GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
