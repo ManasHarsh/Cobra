@@ -39,7 +39,7 @@ git clone https://github.com/maurosoria/dirsearch
 git clone https://github.com/s0md3v/Corsy.git;
 go get -u github.com/ffuf/ffuf;
 GO111MODULE=on go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu
-GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
+GO111MODULE=on go get -v github.com/projectdiscovery/httpx/cmd/httpx;
 git clone https://github.com/hisxo/gitGraber.git;
 git clone https://github.com/lobuhi/byp4xx.git;
 
