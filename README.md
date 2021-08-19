@@ -8,9 +8,9 @@ This tool contains pre-built tools from the community and it has tools from GO a
 # Installation
 
 * `git clone https://github.com/ManasHarsh/Cobra.git`
-* `cd Cobra`
-* `cp * ~/`
-* `chmod +x ~/Cobra.sh ~/tools.sh`
+* `cp Cobra/* ~/`
+* `cd ~ `
+* `chmod +x Cobra.sh tools.sh`
 * Note: Append these lines in your ~/.bashrc or ~/.zshrc (depeding on which shell you use) 
 ```
 export GOPATH=$HOME/go
@@ -22,8 +22,8 @@ then
 `source ~/.zshrc` (for zsh shell)
 
 # Usage:
-* for tool install `~./Cobra.sh`
-* to use tools `~./tools.sh`
+* for tool install `./Cobra.sh`
+* to use tools `./tools.sh`
 
 # Credits:
 * Tomnomnom(https://github.com/tomnomnom)
