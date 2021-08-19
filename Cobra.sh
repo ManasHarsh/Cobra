@@ -9,10 +9,8 @@ echo " 								"
 echo ""
 echo "checking your system and setting up the environment: "
 echo ""
-sudo apt install -y golang;
-sudo apt install -y python3;
-sudo apt install -y python3-pip;
-sudo apt install -y git;
+sudo apt update;
+sudo apt install -y golang python3 python3-pip git libpcap-dev cargo;
 echo "installing your assets, please wait:)"
 echo ""
 
@@ -35,7 +33,6 @@ GO111MODULE=on go get -v -u github.com/OWASP/Amass/v3/...
 git clone https://github.com/maurosoria/dirsearch
 git clone https://github.com/s0md3v/Corsy.git;
 go get -u github.com/ffuf/ffuf;
-sudo apt install -y libpcap-dev;
 GO111MODULE=on go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu
 GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
 git clone https://github.com/hisxo/gitGraber.git;
@@ -50,7 +47,6 @@ cd ~/Arjun
 sudo python3 setup.py install;
 
 cd ~/findomain
-sudo apt install -y cargo;
 cargo build --release;
 cp target/release/findomain ~/go/bin/
 
