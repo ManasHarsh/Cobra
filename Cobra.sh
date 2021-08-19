@@ -10,7 +10,12 @@ echo ""
 echo "checking your system and setting up the environment: "
 echo ""
 sudo apt update;
-sudo apt install -y golang python3 python3-pip git libpcap-dev cargo;
+sudo apt install -y golang; 
+sudo apt install -y python3; 
+sudo apt install -y python3-pip; 
+sudo apt install -y git; 
+sudo apt install -y libpcap-dev; 
+sudo apt install -y cargo;
 echo "installing your assets, please wait:)"
 echo ""
 
