@@ -11,15 +11,6 @@ This tool contains pre-built tools from the community and it has tools from GO a
 * `cp Cobra/* ~/`
 * `cd ~ `
 * `chmod +x Cobra.sh tools.sh`
-* Note: Append these lines in your ~/.bashrc or ~/.zshrc (depeding on which shell you use) 
-```
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
-```
-
-then
-`source ~/.bashrc` (for bash shell)
-`source ~/.zshrc` (for zsh shell)
 
 # Usage:
 * for tool install `./Cobra.sh`
