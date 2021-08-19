@@ -9,6 +9,13 @@ echo " 								"
 echo ""
 echo "checking your system and setting up the environment: "
 echo ""
+echo "setting gopath";
+echo "export GOPATH=\$HOME/go" >> ~/.bashrc
+echo "export GOPATH=\$HOME/go" >> ~/.zshrc
+echo "export PATH=\$PATH:\$GOPATH/bin" >> ~/.bashrc
+echo "export PATH=\$PATH:\$GOPATH/bin" >> ~/.zshrc
+source ~/.bashrc;
+source ~/.zshrc;
 sudo apt update;
 sudo apt install -y golang; 
 sudo apt install -y python3; 
