@@ -1,5 +1,5 @@
 # 🐍Cobra
-![img](./cobra.png)
+![img](./pic_cobra.png)
 
 An All in one tool to make your hacking easier:)
 
@@ -8,7 +8,8 @@ This tool contains pre-built tools from the community and it has tools from GO a
 ## 🧰 Tools:
 
 The tools script installs :- 
- 
+
+![img](./pic_tools.png) 
 
 ## 💠 Installation:
 
