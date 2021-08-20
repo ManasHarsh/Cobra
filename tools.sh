@@ -135,7 +135,7 @@ case $number in
 	21)
 		echo -n "Enter the URL: "
 		read  url
-		~/byp4xx/./byp4xx.sh $url
+		python3 ~/byp4xx/byp4xx.py $url
 		;;
 
         22) 
