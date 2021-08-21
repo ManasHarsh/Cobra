@@ -31,11 +31,11 @@ git clone https://github.com/s0md3v/Arjun;
 git clone https://github.com/m4ll0k/SecretFinder;
 git clone https://github.com/devanshbatham/ParamSpider;
 go get github.com/hakluke/hakrawler;
-GO111MODULE=on go get -u -v github.com/hahwul/dalfox;
 go get github.com/tomnomnom/hacks/waybackurls;
 GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder;
 GO111MODULE=on go get -v github.com/projectdiscovery/dnsx/cmd/dnsx
 GO111MODULE=on go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei;
+GO111MODULE=on go get -v github.com/hahwul/dalfox/v2;
 git clone https://github.com/projectdiscovery/nuclei-templates;
 go get github.com/haccer/subjack;
 git clone https://github.com/findomain/findomain.git;
