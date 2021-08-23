@@ -66,4 +66,8 @@ wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_
 unzip aquatone_linux_amd64_1.7.0.zip;
 cp ~/aquatone ~/go/bin/;
 
-
+cd $HOME;
+git clone https://github.com/maaaaz/webscreenshot.git;
+cd ~/webscreenshot;
+sudo pip3 install -r requirements.txt ;
+cd $HOME; 
