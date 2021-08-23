@@ -5,7 +5,7 @@ echo	" 10. FFUF	 	11. dirsearch			12. amass "
 echo	" 13. dalfox		14. findomain			15. arjun"
 echo	" 16. LinkFinder		17. secretfinder		18. ParamSpider"
 echo	" 19. Corsy 		20. gitgraber 			21. byp4xx"
-echo    " 22. Subjack"
+echo    " 22. Subjack           23.webscreenshot "
 echo -n "Enter the respective number from tool list that you want to use: "
 read number
 echo ""
@@ -144,7 +144,13 @@ case $number in
 		subjack -w $file -t 100 -timeout 30 -o results.txt -ssl
 		;;
 
-
+	23)
+		echo "Make sure to close all firefox windows before using this tool";
+		echo -n "Enter the domain: "
+		read domain
+		python3 ~/webscreenshot/webscreenshot.py -v $domain -r firefox
+		;;
+		
 	*)	
 		echo "Please give valid choice!!!"
 		;;
