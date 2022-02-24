@@ -1,11 +1,13 @@
+cat << EOF 
 
-echo "                          ____ ___  ____  ____      _  "  
-echo "                         / ___/ _ \| __ )|  _ \    / \ "  
-echo "                        | |  | | | |  _ \| |_) |  / _ \  "
-echo "                        | |__| |_| | |_) |  _ <  / ___ \ "
-echo "                         \____\___/|____/|_| \_\/_/   \_\ "
-echo "                       Made with <3 and sweat by ManasH4rsh   "
-echo " 								"
+                          ____ ___  ____  ____      _  
+                         / ___/ _ \| __ )|  _ \    / \ 
+                        | |  | | | |  _ \| |_) |  / _ \ 
+                        | |__| |_| | |_) |  _ <  / ___ \ 
+                         \____\___/|____/|_| \_\/_/   \_\ 
+                       Made with <3 and sweat by ManasH4rsh   
+
+EOF
 echo ""
 echo "checking your system and setting up the environment: "
 echo ""
