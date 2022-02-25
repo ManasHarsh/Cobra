@@ -37,18 +37,6 @@ The tools script installs :-
 It takes time in first isntance. Once everything gets loaded, it will work fine.
 
 
-## ✨ Special thanks 
-<table>
-  <tr>
-<td align="center"><a href="https://github.com/amnjha/"><img src="https://avatars.githubusercontent.com/u/amnjha?v=4" width="100px;" alt=""/><br /><sub><b>Aman Jha</b></sub></a><br /><a href="https://amnjha.github.io" title="Aman Jha">✅</a></td>
-     </tr>
-</table>
-
-
-## 🔖 Legal disclaimer:
-The script is made for educational and ethical purposes only. Usage of the script for attacking targets without prior mutual consent is illegal. I am not responsible for any misuse or damage caused by this script.
-
-
 ## 🐳 Cobra with Docker:
 
 Pull the latest tagged Cobra docker image:
@@ -62,5 +50,20 @@ Run the image with this command:
 Launch the cobra agent:
 
 `./Cobra.sh`
+
+
+## ✨ Special thanks 
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/amnjha/"><img src="https://avatars.githubusercontent.com/u/amnjha?v=4" width="100px;" alt=""/><br /><sub><b>Aman Jha</b></sub></a><br /><a href="https://amnjha.github.io" title="Aman Jha">✅</a></td>
+     </tr>
+</table>
+
+
+
+## 🔖 Legal disclaimer:
+The script is made for educational and ethical purposes only. Usage of the script for attacking targets without prior mutual consent is illegal. I am not responsible for any misuse or damage caused by this script.
+
+
 
 
