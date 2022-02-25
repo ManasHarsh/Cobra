@@ -14,9 +14,9 @@ The tools script installs :-
 ## 💠 Installation:
 
 * `git clone https://github.com/ManasHarsh/Cobra.git`
-* `cp Cobra/* ~/`
-* `cd ~ `
-* `chmod +x Cobra.sh tools.sh`
+* `cd Cobra`
+* `chmod +x *.sh`
+* ./Cobra.sh
 
 ## 📖 Usage:
 * for tool install `./Cobra.sh`
@@ -33,6 +33,8 @@ The tools script installs :-
 ## 📑 Notes:
 * In "gitGraber", please make sure to define your wordlist for scrapping the data.
 * Make sure you have all the tools installed in home directory otherwise you'll need to define the path for tools. 
+
+It takes time in first isntance. Once everything gets loaded, it will work fine.
 
 
 ## ✨ Special thanks 
