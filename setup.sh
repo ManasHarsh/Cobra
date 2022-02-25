@@ -107,6 +107,7 @@ function installSubListr(){
 function installAquatone(){
     cd $scriptDir;
     wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_linux_amd64_1.7.0.zip;
+    eval $(echo "$sudoo apt-get install unzip")
     unzip $scriptDir/aquatone_linux_amd64_1.7.0.zip;
     cp $scriptDir/aquatone ~/go/bin/;
 }
