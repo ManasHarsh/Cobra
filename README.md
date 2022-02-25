@@ -49,7 +49,7 @@ It takes time in first isntance. Once everything gets loaded, it will work fine.
 The script is made for educational and ethical purposes only. Usage of the script for attacking targets without prior mutual consent is illegal. I am not responsible for any misuse or damage caused by this script.
 
 
-## Cobra with Docker:
+## 🐳 Cobra with Docker:
 
 Pull the latest tagged Cobra docker image:
 
