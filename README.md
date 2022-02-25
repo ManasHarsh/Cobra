@@ -38,7 +38,7 @@ The tools script installs :-
 ## ✨ Special thanks 
 <table>
   <tr>
-<td align="center"><a href="https://github.com/manasijha/"><img src="https://avatars.githubusercontent.com/u/47267639?v=4" width="100px;" alt=""/><br /><sub><b>Manasi Jha</b></sub></a><br /><a href="#tutorial-Manasi-Jha" title="Tutorials">✅</a></td>
+<td align="center"><a href="https://github.com/amnjha/"><img src="https://avatars.githubusercontent.com/u/amnjha?v=4" width="100px;" alt=""/><br /><sub><b>Aman Jha</b></sub></a><br /><a href="https://amnjha.github.io" title="Aman Jha">✅</a></td>
      </tr>
 </table>
 
