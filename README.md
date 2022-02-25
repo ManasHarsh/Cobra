@@ -1,4 +1,4 @@
-# 🐍Cobra
+# 🐍 Cobra
 ![img](./pic_cobra.png)
 
 An All in one tool to make your hacking easier:)
