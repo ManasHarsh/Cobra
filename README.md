@@ -52,12 +52,15 @@ The script is made for educational and ethical purposes only. Usage of the scrip
 ## Cobra with Docker:
 
 Pull the latest tagged Cobra docker image:
+
 `docker pull manasharsh/cobra:latest`
 
 Run the image with this command:
+
 `docker run -it --entrypoint bash manasharsh/cobra`
 
 Launch the cobra agent:
+
 `./Cobra.sh`
 
 
