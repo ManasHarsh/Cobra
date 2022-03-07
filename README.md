@@ -13,10 +13,13 @@ The tools script installs :-
 
 ## 💠 Installation:
 
-* `git clone https://github.com/ManasHarsh/Cobra.git`
-* `cd Cobra`
-* `chmod +x *.sh`
-* `./Cobra.sh`
+```bash
+git clone https://github.com/ManasHarsh/Cobra.git
+cd Cobra/
+chmod +x *.sh
+./Cobra.sh
+```
+___
 
 ## 📖 Usage:
 * for tool install `./Cobra.sh`
